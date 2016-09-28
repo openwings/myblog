@@ -1,0 +1,5 @@
+# My Frist crontab syntax
+
+*/1 * * * * /home/admin/bin/update-git-repo.sh /home/admin/cdn >> /home/admin/logs/update-git-repo.log 2>&1 &
+*/1 * * * * /home/admin/bin/update-git-repo.sh /home/admin/Fed >> /home/admin/logs/update-git-repo.log 2>&1 &
+*/1 * * * * /home/admin/bin/update-git-repo.sh /home/admin/kghome >> /home/admin/logs/update-git-repo.log 2>&1 &
